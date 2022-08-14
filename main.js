@@ -13,5 +13,5 @@ fetch("https://meowfacts.herokuapp.com/?lang=rus")
     button.addEventListener("click" , function () {
         fetch("https://meowfacts.herokuapp.com/?lang=rus")
         .then(res => res.json())
-        .then(data => render(data))
+        .then(data => render(data.data))
     })
