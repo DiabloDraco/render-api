@@ -14,10 +14,10 @@
     border: none;
     outline: none;
     background-color: aqua;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     color: blueviolet;
-    font-weight: 900;
+    font-weight: 700;
     font-size: larger;
     cursor: pointer;
 }
@@ -31,5 +31,6 @@ h1 {
     color: blueviolet;
     font-weight: bold;
     font-size: medium;
-    width: 200px;
+    text-align: center;
+    width: 300px;
 }
