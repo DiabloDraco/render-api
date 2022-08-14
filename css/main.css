@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+}
+
+#button {
+    border: none;
+    outline: none;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    color: blueviolet;
+    font-weight: 900;
+    font-size: larger;
+    cursor: pointer;
+}
+body {
+}
+h1 {
+    color: blueviolet;
+}
+
+#name {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: medium;
+    width: 200px;
+}
